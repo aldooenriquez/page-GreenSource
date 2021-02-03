@@ -1,0 +1,436 @@
+body
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body .row
+{
+    margin-left:0px;
+    margin-right:0px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px)
+{
+    .layout
+    {
+        background-color: rgba(0,0,0,0.4);
+        position: absolute;
+        width:100%;
+        height:300px;
+        z-index:1;
+    }
+
+    .banner .img-banner
+    {
+        position:relative;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height:300px;
+        position: relative;
+    }
+
+    .banner .img-banner p
+    {
+        position:absolute;
+        margin-top:150px;
+        width:100%;
+        z-index: 3;
+        color:white;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .img-banner
+    {
+        background: url("../images/banner-services.jpg") no-repeat fixed;
+    }
+
+    body .container-fluid
+    {
+        padding-right: 0px;
+        padding-left: 0px;;
+    }
+
+    .content-bar
+    {
+        background-color:rgba(147, 197, 180, 0.288);
+        box-shadow:2px 2px 6px 2px #000;
+        z-index:10;
+        width:100%;
+    }
+
+    .content-bar .content-panel section .mangeuraRiego,
+    .content-bar .content-panel section .extAire,
+    .content-bar .content-panel section .sistemaRiego
+    {
+        display:none;
+    }
+
+    .content-bar .content-panel div
+    {
+        padding:10px;
+        
+    }
+
+    .content-bar .content-panel h3
+    {
+        width:100%;
+        border:1px solid rgba(81, 173, 127, 0.719);
+        padding:13px 2px ;
+        vertical-align: middle;
+        text-align: center;
+        font-size:13px;
+    }
+
+    .content-bar .content-panel h3:hover
+    {
+        box-shadow:2px 2px 5px #000;
+        background-color:rgba(238, 236, 236, 0.918);    
+        cursor:pointer;
+    }
+
+    .content-cards
+    {
+        padding:30px 0px;
+        margin-top:100px;
+    }
+
+    .content-cards #head-content-card
+    {
+        vertical-align: middle;
+        text-align:center;
+        background-color: #00e676;
+        padding:8px;
+        margin-bottom:20px;
+    }
+
+    .content-cards #head-content-card p
+    {
+        color:white;
+        font-size: 18px;
+        font-weight: 400;
+        vertical-align: middle;
+    }
+
+    .content-cards section img,
+    .content-cards .cards .description-cards div
+    {
+        display: inline-block;
+    }
+
+    .content-cards .cards .description-cards div
+    {
+        width:50%;
+        vertical-align: middle;
+    }
+
+    .content-cards .cards .description-cards span
+    {
+        width:140px;
+        padding:10px 0px;
+        color:#ffc400;
+        font-size:25px;
+    }
+
+    .content-cards section
+    {
+        display:block;
+        width:100%;
+        background-color:rgba(179, 179, 179, 0.199);
+        margin:1px;
+    }   
+
+    .content-cards section img
+    {
+        width:140px;
+        margin:10px;
+        padding:0px 10px 0px 10px; 
+        border-right: 1px solid #c3c3c3;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+    .layout
+    {
+        background-color: rgba(0,0,0,0.4);
+        position: absolute;
+        width:100%;
+        height:300px;
+        z-index:1;
+    }
+
+    .banner .img-banner
+    {
+        position:relative;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height:300px;
+        position: relative;
+    }
+
+    .banner .img-banner p
+    {
+        position:absolute;
+        margin-top:150px;
+        width:100%;
+        z-index: 3;
+        color:white;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .img-banner
+    {
+        background: url("../images/banner-services.jpg") no-repeat fixed;
+    }
+
+    body .container-fluid
+    {
+        padding-right: 0px;
+        padding-left: 0px;;
+    }
+
+    .content-bar
+    {
+        background-color:rgba(147, 197, 180, 0.288);
+        box-shadow:2px 2px 6px 2px #000;
+        z-index:10;
+        width:100%;
+    }
+
+    .content-bar .content-panel section .mangeuraRiego,
+    .content-bar .content-panel section .extAire,
+    .content-bar .content-panel section .sistemaRiego
+    {
+        display:none;
+    }
+
+    .content-bar .content-panel div
+    {
+        padding:10px;
+        
+    }
+
+    .content-bar .content-panel h3
+    {
+        width:100%;
+        border:1px solid rgba(81, 173, 127, 0.719);
+        padding:13px 2px ;
+        vertical-align: middle;
+        text-align: center;
+        font-size:15px;
+    }
+
+    .content-bar .content-panel h3:hover
+    {
+        box-shadow:2px 2px 5px #000;
+        background-color:rgba(238, 236, 236, 0.918);    
+        cursor:pointer;
+    }
+
+    .content-cards
+    {
+        padding:30px 0px;
+        margin-top:100px;
+    }
+
+    .content-cards #head-content-card
+    {
+        vertical-align: middle;
+        text-align:center;
+        background-color: #00e676;
+        padding:8px;
+        margin-bottom:20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content-cards #head-content-card p
+    {
+        color:white;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .content-cards .cards 
+    {
+        text-align: center;
+        padding:25px 0px;
+    }
+
+    .content-cards .cards .description-cards div #features
+    {
+        display:none;
+    }
+
+    .content-cards .cards .description-cards p
+    {
+        text-align: center;
+    }
+
+    .content-cards .cards .description-cards span
+    {
+        display:block;
+        border-top:1px solid rgba(0,0,0,0.6);
+        width:200px;
+        margin:0 auto;
+        padding:10px 0px;
+        color:#ffc400;
+        font-size:25px;
+        text-align: center;
+    }
+    
+    .content-cards section
+    {
+        display:inline-block;
+        margin:15px;
+        background-color:rgba(179, 179, 179, 0.103);
+        border-radius: 4px;
+    }
+
+    .content-cards section:hover
+    {
+        box-shadow:1px 1px 5px 1px #000;
+    }
+    
+    .content-cards section img
+    {
+        max-width:200px;
+        margin:10px;
+    }
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width:1100px)
+{
+    .layout
+    {
+        background-color: rgba(0,0,0,0.4);
+        position: absolute;
+        width:100%;
+        height:500px;
+        z-index:1;
+    }
+    
+    .banner .img-banner
+    {
+        position:relative;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height:500px;
+        position: relative;
+    }
+    
+    .banner .img-banner p
+    {
+        position:absolute;
+        margin-top:200px;
+        width:100%;
+        z-index: 3;
+        color:white;
+        font-size: 43px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .img-banner
+    {
+        background: url("../images/banner-services.jpg") no-repeat fixed;
+    }
+    
+    .body
+    {
+        -webkit-box-shadow: inset 0px 5px 10px 0px #000000;
+        box-shadow: inset 0px 5px 10px 0px #000000;
+    }
+    
+    .content-bar .content-panel div
+    {
+        padding:10px;
+    }
+    
+    .content-bar .content-panel h3
+    {
+        width:100%;
+        border:1px solid rgba(0,0,0,0.6);
+        padding:13px 2px ;
+        margin-top:30px;
+        text-align: center;
+    }
+    
+    .content-bar .content-panel h3:hover
+    {
+        box-shadow:2px 2px 5px #000;
+        background-color:rgba(238, 236, 236, 0.918);    
+        cursor:pointer;
+    }
+    
+    .content-cards
+    {
+        text-align: center;
+        padding:30px 0px;
+    }
+    
+    .content-cards #head-content-card
+    {
+        background-color: #00e676;
+        padding:20px;
+        margin-bottom:20px;
+        box-shadow:0px 5px 10px 1px #000;
+    }
+    
+    .content-cards #head-content-card p
+    {
+        color:white;
+        font-size: 30px;
+        font-weight: 400;
+        vertical-align: middle;
+    }
+    
+    .content-cards .cards .description-cards span
+    {
+        display:block;
+        border-top:1px solid rgba(0,0,0,0.6);
+        width:200px;
+        margin:0 auto;
+        padding:10px 0px;
+        color:#ffc400;
+        font-size:25px;
+    }
+    
+    .content-cards section
+    {
+        display:inline-block;
+    }
+    
+    .content-cards section img
+    {
+        width:240px;
+        margin:10px;
+    }
+}

@@ -1,0 +1,231 @@
+    body
+    {
+        overflow-x: hidden;
+    }
+
+    /*.layout
+    {
+        background-color: rgba(0,0,0,0.3);
+        position: fixed;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+    }*/
+
+    @media screen and (min-width: 480px) and (max-width: 767px)
+    {
+
+        #recargado
+        {
+            z-index: -1;
+            position: relative;
+        }
+
+        #recargado .image1, #recargado .image2, #recargado .image3 
+        {
+            /* top:70px; */
+            position:relative;
+            background-position: center center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            min-height: 100vh;
+             
+        }
+
+        .image1
+        {
+        	background: url("../images/blue-care-cultivation-736779_opt.jpg") no-repeat fixed;
+        }
+
+        .image1 div
+        {
+            z-index: 2;
+            position: relative;
+            max-width: 100%;
+            background-color: rgba(0,0,0,0.3);
+            display: block;
+            top: 100px;
+            color: white;
+            padding: 20px;
+        }
+         
+        .image2 
+        {
+            background: url("../images/fondo-2.1.jpg") no-repeat fixed;
+        }
+         
+        .image3 
+        {
+            background: url("../images/botanical-color-freshness-2176158_opt.jpg") no-repeat fixed;
+        }
+
+        #recargado .contenido
+        {
+            z-index: 2;
+        }
+
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 991px)
+    {
+        #recargado
+        {
+            z-index: -1;
+            position: relative;
+        }
+
+        #recargado .image1, #recargado .image2, #recargado .image3 
+        {
+            /* top:70px; */
+            position:relative;
+            background-position: center center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            min-height: 100vh;
+             
+        }
+
+        .image1
+        {
+        	background: url("../images/blue-care-cultivation-736779_opt.jpg") no-repeat fixed;
+        }
+
+        .image1 div
+        {
+            z-index: 2;
+            position: relative;
+            max-width: 100%;
+            background-color: rgba(0,0,0,0.3);
+            display: block;
+            top: 100px;
+            color: white;
+            padding: 20px;
+        }
+         
+        .image2 
+        {
+            background: url("../images/fondo-2.1.jpg") no-repeat fixed;
+        }
+         
+        .image3 
+        {
+            background: url("../images/botanical-color-freshness-2176158_opt.jpg") no-repeat fixed;
+        }
+
+        #recargado .contenido
+        {
+            z-index: 2;
+        }
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1099px)
+    {
+        #recargado
+        {
+            z-index: -1;
+            position: relative;
+        }
+
+        #recargado .image1, #recargado .image2, #recargado .image3 
+        {
+            /* top:70px; */
+            position:relative;
+            background-position: center center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            min-height: 100vh;
+             
+        }
+
+        .image1
+        {
+        	background: url("../images/blue-care-cultivation-736779_opt.jpg") no-repeat fixed;
+        }
+
+        .image1 div
+        {
+            z-index: 2;
+            position: relative;
+            max-width: 100%;
+            background-color: rgba(0,0,0,0.3);
+            display: block;
+            top: 100px;
+            color: white;
+            padding: 20px;
+        }
+         
+        .image2 
+        {
+            background: url("../images/fondo-2.1.jpg") no-repeat fixed;
+        }
+         
+        .image3 
+        {
+            background: url("../images/botanical-color-freshness-2176158_opt.jpg") no-repeat fixed;
+        }
+
+        #recargado .contenido
+        {
+            z-index: 2;
+        }
+    }
+
+    @media screen and (min-width: 1100px)
+    {
+        #recargado
+        {
+            z-index: -1;
+            position: relative;
+        }
+
+        #recargado .image1, #recargado .image2, #recargado .image3 
+        {
+            /* top:70px; */
+            position:relative;
+            background-position: center center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            min-height: 100vh;
+             
+        }
+
+        .image1
+        {
+        	background: url("../images/blue-care-cultivation-736779_opt.jpg") no-repeat fixed;
+        }
+
+        .image1 div
+        {
+            z-index: 2;
+            position: relative;
+            max-width: 100%;
+            background-color: rgba(0,0,0,0.3);
+            display: block;
+            top: 100px;
+            color: white;
+            padding: 20px;
+        }
+         
+        .image2 
+        {
+            background: url("../images/fondo-2.1.jpg") no-repeat fixed;
+        }
+         
+        .image3 
+        {
+            background: url("../images/botanical-color-freshness-2176158_opt.jpg") no-repeat fixed;
+        }
+
+        #recargado .contenido
+        {
+            z-index: 2;
+        }
+    }

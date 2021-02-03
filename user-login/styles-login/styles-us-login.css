@@ -1,0 +1,47 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.layout
+{
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    width:100%;
+    height:500px;
+    z-index:1;
+}
+
+.banner .img-banner p
+{
+    position:absolute;
+    margin-top:200px;
+    width:100%;
+    z-index: 92;
+    color:white;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.content-aboutt-us
+{
+    z-index:92;
+    position:relative;
+    background-color:white;
+    -webkit-box-shadow: inset 0px 5px 10px 0px #000000;
+    box-shadow: inset 0px 5px 10px 0px #000000;
+}
+
+.content-aboutt-us .content-body
+{
+    text-align: center;
+    padding:50px 200px;
+}
+
+.content-aboutt-us .content-body section p
+{
+    padding:50px 0px;
+}

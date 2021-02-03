@@ -1,0 +1,388 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.layout
+{
+    position: fixed;
+    background-color: rgba(0,0,0,0.360);
+    height:100%;
+    width:100%;
+    z-index:91;
+}
+
+.banner .img-banner
+{
+    position:relative;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:400px;
+    position: relative;
+}
+
+.banner .img-banner p
+{
+    position:absolute;
+    margin-top:150px;
+    width:100%;
+    z-index: 92;
+    color:white;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.img-banner
+{
+    background: url("../images/banner-services.jpg") no-repeat fixed;
+}
+
+.body
+{
+    position: relative;
+    width:1364px;
+    z-index:92;
+    background-color:white;
+    -webkit-box-shadow: inset 0px 5px 10px 0px #000000;
+    box-shadow: inset 0px 5px 10px 0px #000000;
+}
+
+ .content-services
+{
+    position:absolute;
+    border-right:1px solid rgba(0,0,0,0.6);
+    height:100vh;
+    margin:40px 0px 40px 0px;
+    /* background-color: rgba(247, 246, 225, 0.671); */
+}
+
+.content-services .content-panel
+{
+    margin-top:100px;
+    padding:0px;
+    width:100%;
+}
+
+.content-services .content-panel ol
+{
+    background-color:white;
+}
+
+.content-services .content-panel ol li
+{
+    list-style: none;
+    width:100%;
+    padding:15px 0px;
+    background-color:white;
+    border:1px solid #c3c3c3;
+    
+}
+
+.content-services .content-panel ol #head-title:hover
+{
+    box-shadow: 0px 0px 0px transparent;
+    cursor:auto;
+}
+
+.content-services .content-panel ol #head-title
+{
+    margin-bottom:0px;
+    padding-top:15px;
+    padding-bottom:0px;
+    background-color:rgba(82, 82, 85, 0.781);
+}
+
+.content-services .content-panel ol #head-title p
+{
+    font-size: 26px;
+    text-align: center;
+    color:white;
+}
+
+.content-services .content-panel ol li a
+{
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    padding-left:65px;
+}
+
+.content-services .content-panel ol li:hover a
+{
+    color:white
+}
+
+.content-services .content-panel ol li:hover
+{
+    cursor:pointer;
+    box-shadow:1px 1px 8px 3px rgba(0,0,0,0.5);
+}
+
+.content-services .content-panel ol #AT,
+.content-services .content-panel ol #MntSr,
+.content-services .content-panel ol #MntS,
+.content-services .content-panel ol #Inst,
+.content-services .content-panel ol #Web
+{
+    background-color:white;
+    color:black;
+}
+
+.content-services .content-panel ol #AT.activeAT
+{
+    position:relative;
+    box-shadow:1px 1px 8px 3px rgba(0,0,0,0.5);
+    background-color: rgba(8, 126, 180, 0.863);
+}
+
+.content-services .content-panel ol #MntSr.activeMntSr
+{
+    position:relative;
+    box-shadow:1px 1px 8px 3px rgba(0,0,0,0.5);
+    background-color: rgba(20, 180, 159, 0.863);
+}
+
+.content-services .content-panel ol #MntS.activeMntS
+{
+    position:relative;
+    box-shadow:1px 1px 8px 3px rgba(0,0,0,0.5);
+    background-color: rgba(223, 7, 7, 0.863);
+}
+
+.content-services .content-panel ol #Inst.activeInst
+{
+    position:relative;
+    box-shadow:1px 1px 8px 3px rgba(0,0,0,0.5);
+    background-color: rgba(8, 207, 35, 0.932);
+}
+
+.content-services .content-panel ol #Web.activeWeb
+{
+    position:relative;
+    box-shadow:1px 1px 8px 3px rgba(0,0,0,0.5);
+    background-color: rgba(144, 25, 180, 0.932);
+}
+
+
+.content-services .content-panel ol li.activeAT a,
+.content-services .content-panel ol li.activeMntSr a,
+.content-services .content-panel ol li.activeMntS a,
+.content-services .content-panel ol li.activeInst a,
+.content-services .content-panel ol li.activeWeb a
+{
+    color:white;
+}
+
+.content-services .content-panel ol #AT:hover,
+.content-services .content-panel ol #MntSr:hover,
+.content-services .content-panel ol #MntS:hover,
+.content-services .content-panel ol #Inst:hover,
+.content-services .content-panel ol #Web:hover
+{
+    position:relative;
+    transition:all 0.2s linear;
+}
+
+.content-services .content-panel ol #AT:hover
+{
+    background-color: rgba(8, 126, 180, 0.863);
+}
+
+.content-services .content-panel ol #MntSr:hover
+{
+    background-color: rgba(20, 180, 159, 0.863);
+}
+
+.content-services .content-panel ol #MntS:hover
+{
+    position: relative;
+    background-color: rgba(223, 7, 7, 0.863);
+    transition: all 0.2s linear;
+}
+
+.content-services .content-panel ol #Inst:hover
+{
+    background-color: rgba(8, 207, 35, 0.932);
+}
+
+.content-services .content-panel ol #Web:hover
+{
+        background-color: rgba(144, 25, 180, 0.932);
+}
+
+.content-services .content-panel .icon-user-tie,
+.content-services .content-panel .icon-home3,
+.content-services .content-panel .icon-microchip,
+.content-services .content-panel .icon-tools,
+.content-services .content-panel .icon-database2
+{
+    position: absolute;
+    background:rgba(0,0,0,0.5);
+    color:white;
+    font-size: 25px;
+    padding:15px;
+    margin-top:1px;
+    margin-left:1px;
+    width:55px;
+    z-index:1;
+}
+
+.content-description
+{
+    width:100%;
+}
+
+.description .des-services
+{
+    padding:10px;
+    margin-top:70px;
+    text-align: justify;
+    font-size:16px;
+    letter-spacing: 1px;
+}
+
+.content-description .description
+{
+    width:80%;
+    margin:auto;
+}
+
+
+.aside-redes .content-redes .icon-facebook4,
+.aside-redes .content-redes .icon-twitter3,
+.aside-redes .content-redes .icon-whatsapp2,
+.aside-redes .content-redes .icon-pinterest4,
+.aside-redes .content-redes .icon-instagram3
+{
+    font-size: 27px;
+    padding:5px;
+}
+
+
+
+.aside-redes .content-redes ol
+{
+    margin-top:20px;
+}
+
+.aside-redes .content-redes ol li
+{
+    padding:10px;
+    list-style: none;
+    display:inline-block;
+}
+
+.aside-redes .content-redes ol li a
+{
+    text-decoration: none;
+}
+
+
+
+
+
+
+@media screen and (min-width: 480px) and (max-width: 780px)
+{
+
+    .banner .img-banner
+    {
+        position:relative;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width:100%;
+        position: relative;
+    }
+
+    .banner .img-banner p
+    {
+        position:absolute;
+        margin-top:150px;
+        width:100%;
+        z-index: 92;
+        color:white;
+        font-size: 35px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .img-banner
+    {
+        background: url("../images/banner-services.jpg") no-repeat fixed;
+    }
+
+    .body
+    {
+        position: relative;
+        width:100%;
+        z-index:92;
+        background-color:white;
+        -webkit-box-shadow: inset 0px 5px 10px 0px #000000;
+        box-shadow: inset 0px 5px 10px 0px #000000;
+    }
+
+    .content-services
+    {
+        display:none;
+    }
+
+    .content-description
+    {
+        width:100%;
+    }
+
+    .description .des-services
+    {
+        padding:10px;
+        margin-top:70px;
+        text-align: justify;
+        font-size:16px;
+        letter-spacing: 1px;
+    }
+
+    .content-description .description
+    {
+        width:80%;
+        margin:auto;
+    }
+
+
+    .aside-redes .content-redes .icon-facebook4,
+    .aside-redes .content-redes .icon-twitter3,
+    .aside-redes .content-redes .icon-whatsapp2,
+    .aside-redes .content-redes .icon-pinterest4,
+    .aside-redes .content-redes .icon-instagram3
+    {
+        font-size: 27px;
+        padding:5px;
+    }
+
+
+
+    .aside-redes .content-redes ol
+    {
+        margin-top:20px;
+    }
+
+    .aside-redes .content-redes ol li
+    {
+        padding:10px;
+        list-style: none;
+        display:inline-block;
+    }
+
+    .aside-redes .content-redes ol li a
+    {
+        text-decoration: none;
+    }
+}

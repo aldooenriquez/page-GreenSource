@@ -1,0 +1,191 @@
+body
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body .row
+{
+    margin-left:0px;
+    margin-right:0px;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.61);
+    border-radius: 4px;
+    background-color: rgba(148, 148, 148, 0.301);
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 7px;
+    background-color: rgba(22, 185, 103, 0.856);
+    background-image: -webkit-linear-gradient(90deg,transparent,rgba(0, 0, 0, 0.4) 50%,transparent,transparent)
+}
+
+.layout
+{
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    width:100%;
+    height:300px;
+    z-index:1;
+}
+
+.banner .img-banner
+{
+    position:relative;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:300px;
+    position: relative;
+}
+
+.banner .img-banner p
+{
+    position:absolute;
+    margin-top:150px;
+    width:100%;
+    z-index: 3;
+    color:white;
+    font-size: 37px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.img-banner
+{
+    background: url("../images/banner-services.jpg") no-repeat fixed;
+}
+
+.body
+{
+    /* -webkit-box-shadow: inset 0px 5px 10px 0px #000000; */
+    /* box-shadow: inset 0px 5px 10px 0px #000000; */
+    width:100%;
+    padding:30px 0px;
+    background-color:rgba(212, 203, 203, 0.582);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body .form-contact .info-contact
+{
+    display:inline-block;
+    background:#00e676;
+    padding: 34px;
+    color: rgba(5, 5, 5, 0.514);
+}
+
+.body .form-contact .info-contact .icon-user1
+{
+    position: relative;
+    display:block;
+    /* background:rgba(255, 255, 255, 0.699); */
+    font-size: 60px;
+    width:20%;
+    padding: 20px;
+    margin:auto;
+    
+}
+
+.body .form-contact .info-contact h2
+{
+    text-align:center;
+    display:block;
+    margin-bottom: 50px;
+}
+
+.body .form-contact .info-contact .icon-mail,
+.body .form-contact .info-contact .icon-phone,
+.body .form-contact .info-contact .icon-location1
+{
+    position: absolute;
+    font-size: 23px;
+}
+
+.body .form-contact .info-contact > div
+{
+    width:50%;
+    margin: 20px auto;
+}
+
+.body .form-contact .info-contact > div p
+{
+    padding: 0px 0px 0px 50px;
+    font-size: 14px;
+}
+
+.body .form-contact form 
+{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 40px;
+}
+
+.body .form-contact form label, input
+{
+    display: block;
+}
+
+.body .form-contact form label
+{
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.body .form-contact form input[type="text"],
+.body .form-contact form input[type="mail"],
+.body .form-contact form input[type="password"],
+.body .form-contact form input[type="tel"]
+{
+    padding:6px 6px 10px 10px;
+    font-size: 18px;
+    background-color:transparent;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    outline:none;
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.body .form-contact form input[type="text"],
+.body .form-contact form input[type="tel"]
+{
+    width: 49%;
+    display: inline-block;
+}
+
+.body .form-contact form textarea
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    width:100%;
+    outline:none;
+    resize: none;
+    font-size: 18px;
+    padding:6px 6px 25px 10px;
+}
+
+
+.body .form-contact form input[type="submit"]
+{
+    border:none;
+    outline:none;
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    font-size: 18px;
+    border-radius: 5px;
+    color:#fff;
+    background:#00e676;
+}

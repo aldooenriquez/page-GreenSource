@@ -1,0 +1,112 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+header 
+{
+	width: 100%;
+	position: relative;
+	z-index: 93;
+	background-color:transparent;
+	max-height:97px;
+}
+
+header.menu-fijo
+{
+	position: fixed;
+}
+
+header .menu ul
+{
+	margin-top:-4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header .menu
+{
+	display: block;
+	width: 100%;
+	padding:11px 5px 0px 5px;
+	text-align: center;
+}
+
+header .menu ul li
+{
+	display: inline-block;
+	position: relative;
+	list-style: none;
+	padding: 10px 3px;
+	vertical-align: middle;
+}
+
+header .menu ul li a
+{
+	font-family: verdana;
+	font-size: 19px;
+	font-weight: 100;
+	color:rgba(16, 148, 82, 1);
+	padding: 13px 14px;
+	margin:0px 10px;
+	text-decoration: none;
+}
+
+header .menu ul #login
+{
+	position: relative;
+	top: 0;
+	border:1px solid rgba(16, 148, 82, 1);
+	font-family: verdana;
+	font-size: 19px;
+	font-weight: 100;
+	color:white;
+	padding: 4px 6px;
+	margin:0px 10px;
+}
+
+header .menu ul #login:hover
+{
+	border:1px solid #000;
+	background-color:white;
+	transition: 1.2s linear all;
+	cursor:pointer;
+}
+
+header .menu ul #login #user:hover
+{
+	color: #000;
+}
+
+
+header .menu ul .submenu
+{
+	position:absolute;
+	display:block;
+	width:220px;
+	top:40px;
+	margin:0px 0px 10px -50px;
+	text-align: center;
+	display:none;
+}
+
+header .menu ul .submenu li
+{
+	background: rgba(124, 121, 121, 0.521);
+	width:80%;
+	border-bottom: 1px solid rgba(214, 212, 212, 0.726);
+}
+
+header .menu ul .submenu li a
+{
+	color: rgb(255, 255, 255);
+	font-size:16px;
+}
+
+header .menu ul .submenu li a:hover
+{
+	background:transparent;
+	border-bottom: 1px solid transparent
+}

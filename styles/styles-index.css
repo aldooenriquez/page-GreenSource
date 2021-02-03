@@ -1,0 +1,412 @@
+body
+{
+    overflow-x: hidden;
+}
+
+.layout
+{
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.61);
+    border-radius: 4px;
+    background-color: rgba(148, 148, 148, 0.301);
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 7px;
+    background-color: rgba(22, 185, 103, 0.856);
+    background-image: -webkit-linear-gradient(90deg,transparent,rgba(0, 0, 0, 0.4) 50%,transparent,transparent)
+}
+
+    
+
+#recargado .image1, #recargado .image2, #recargado .image3 
+{
+    /* top:70px; */
+    position:relative;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+        
+}
+
+.image1
+{
+    background: url("../images/blue-care-cultivation-736779_opt.jpg") no-repeat fixed;
+}
+
+.image1 .contenedor
+{
+    top: 50px;
+    position: relative;
+}
+
+.image1 .uno,
+.image1 .dos
+{
+    /* position: absolute; */
+    z-index: 2;
+    /* width: 100%; */
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    /* top: 90px; */
+    color: white;
+    padding: 26px;
+}
+
+.image1 .uno h1
+{
+    color: rgb(0, 145, 48);
+    font-size: 76px;
+    font-weight: 500;
+    margin-left: 55px;
+    animation: flipInX 2.6s linear;
+}
+
+.image1 .uno h1 span
+{
+    color: rgb(255, 255, 255);
+}
+
+.image1 .uno p
+{
+    font-size: 26px;
+    margin-left: 65px;
+    animation: slideInLeft 1.8s linear;
+}
+
+.image1 .contenedor .dos p
+{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: justify;
+    top: 30px;
+    padding: 20px 30px;
+    margin-right: 70px;
+    animation: fadeInUp 3s linear;
+}
+    
+
+
+#content-service
+{
+    z-index: 3;
+    position: relative;
+    background-color: white;
+    height: 100%;
+    padding: 20px;
+}
+
+#content-service #head-service
+{
+    text-align:center;
+}
+
+#content-service #head-service hr
+{
+    border: 1px solid rgba(71, 70, 70, 0.363);
+}
+
+#content-service #head-service hr,
+#content-service #head-service h1
+{
+    width: 28%;
+    display:inline-block;
+}
+
+#content-service #head-service h1
+{
+    width: 40%;
+    text-align:center;
+    font-size: 50px;
+}
+
+#content-service .row
+{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    padding: 10px 60px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#content-service .row .inst,
+#content-service .row .diseño,
+#content-service .row .asistencia,
+#content-service .row .mr
+{
+    position: relative;
+    width: 270px;
+    height: 250px;
+    padding: 5px 0px;
+    margin: 8px;
+    overflow:hidden;
+}
+
+#content-service .row .inst .img-wrap-inst,
+#content-service .row .diseño .img-wrap-diseño,
+#content-service .row .asistencia .img-wrap-asistencia,
+#content-service .row .mr .img-wrap-mr
+{
+    width: 100%;
+    height: 240px;
+    padding: 5px 0px;
+    overflow: hidden;
+}
+
+#content-service .row .inst .img-wrap-inst .capa,
+#content-service .row .diseño .img-wrap-diseño .capa,
+#content-service .row .asistencia .img-wrap-asistencia .capa,
+#content-service .row .mr .img-wrap-mr .capa
+{
+    position:absolute;
+    z-index: 4;
+    width: 100%;
+    top: 135px;
+    left: 10px;
+    padding: 2px
+}
+
+#content-service .row .inst .img-wrap-inst .capa h3,
+#content-service .row .diseño .img-wrap-diseño .capa h3,
+#content-service .row .asistencia .img-wrap-asistencia .capa h3,
+#content-service .row .mr .img-wrap-mr .capa h3
+{
+    color: white;
+    font-size: 30px;
+    font-weight: 400px;
+    padding: 2px
+}
+
+#content-service .row .inst .img-wrap-inst img,
+#content-service .row .diseño .img-wrap-diseño img,
+#content-service .row .asistencia .img-wrap-asistencia img,
+#content-service .row .mr .img-wrap-mr img
+{
+    width: 100%;
+    height: 100%;
+    transition: 0.9s;
+}
+
+#content-service .row .inst button,
+#content-service .row .diseño button,
+#content-service .row .asistencia button,
+#content-service .row .mr button
+{
+    position: absolute; 
+    top: 198px;
+    left: 15px;
+    padding: 3px 5px;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: transparent;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    transition: 1s;
+    z-index: 4;
+}
+
+#content-service .row .inst button:hover,
+#content-service .row .diseño button:hover,
+#content-service .row .asistencia button:hover,
+#content-service .row .mr button:hover
+{
+    background-color: rgba(0, 158, 84, 0.692);
+}
+
+.image2 
+{
+    /* background: url("../images/fondo-2.1.jpg") no-repeat fixed; */
+    position:absolute;
+    z-index: 4;
+    background-color: white;
+    
+}
+
+.image2 .content
+{
+    position: absolute;
+    z-index:3;
+    width: 100%;
+    top: 10px;
+}
+
+.image2 .content h1
+{
+    width: 90%;
+    text-align:center;
+    /* color:rgba(1, 148, 45, 0.836); */
+    font-size: 50px;
+    font-weight: 400;
+    margin:auto;
+    border-top: 2px solid rgba(0,0,0,0.3);
+    padding: 40px 0px;
+}
+
+.image2 .content p
+{
+    width: 70%;
+    font-size: 19px;
+    font-weight: 100;
+    margin:auto;
+    text-align: justify;
+    padding: 10px;
+}
+
+.image2 .content p span
+{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(0, 209, 105, 0.959);
+}
+
+.image2 .content .icon-services
+{
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    top: 50px;
+}
+
+.image2 .content .icon-services span
+{
+    padding: 10px;
+    font-size:100px;
+}
+
+.image2 .content .icon-services .icon-thermometer-three-quarters
+{
+    color: rgba(192, 19, 19, 0.801);
+}
+
+.image2 .content .icon-services .icon-drop
+{
+    color: rgba(31, 92, 223, 0.863);
+}
+
+.image2 .content .icon-services .icon-air
+{
+    color: rgba(1, 160, 41, 0.897);
+}
+
+.image2 .content .icon-services .icon-sun
+{
+    color: rgb(207, 70, 7);
+}
+
+.image2 .content .icon-services .icon-eyedropper
+{
+    color: rgba(83, 1, 160, 0.897);
+}
+
+.image2 .content .icon-services div
+{
+    display:inline-block;
+}
+
+.image2 .content .icon-services div p
+{
+    width: 240px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+.image3 
+{
+    background: url("../images/FAQ.jpg") no-repeat fixed;
+    min-height: 100px;
+}
+
+.image3 .content-faq
+{
+    z-index: 3;
+    position: relative;
+    top: 0px;
+    padding: 5px 50px;
+}
+
+.image3 .content-faq h1
+{
+    text-align: center;
+    font-size: 40px;
+}
+
+.image3 .content-faq .faqs > div > div
+{
+    padding: 10px;
+    display:flex;
+    /* align-items:center; */
+    justify-content:center;
+}
+
+.image3 .content-faq .faqs > div > div .section-1,
+.image3 .content-faq .faqs > div > div .section-2,
+.image3 .content-faq .faqs > div > div .section-3,
+.image3 .content-faq .faqs > div > div .section-4
+{
+    width: 45%;
+    padding: 10px;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+
+.image3 .content-faq .faqs div div .section-1 h3,
+.image3 .content-faq .faqs div div .section-2 h3,
+.image3 .content-faq .faqs div div .section-3 h3,
+.image3 .content-faq .faqs div div .section-4 h3
+{
+    background-color: rgba(0, 209, 105, 0.959);
+    width: 100%;
+    padding: 8px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.image3 .content-faq .faqs div div .section-1 h3:hover,
+.image3 .content-faq .faqs div div .section-2 h3:hover,
+.image3 .content-faq .faqs div div .section-3 h3:hover,
+.image3 .content-faq .faqs div div .section-4 h3:hover
+{
+    cursor: pointer;
+}
+
+.image3 .content-faq .faqs div div .section-1 .body-faqs,
+.image3 .content-faq .faqs div div .section-2 .body-faqs,
+.image3 .content-faq .faqs div div .section-3 .body-faqs,
+.image3 .content-faq .faqs div div .section-4 .body-faqs
+{
+    width: 100%;
+    background-color: rgba(167, 161, 161, 0.726);
+    padding: 10px;
+    position: relative;
+    top: -10px;
+    display: none;
+}
+
+.image3 .content-faq .faqs div div .section-1 .body-faqs section a,
+.image3 .content-faq .faqs div div .section-2 .body-faqs section a,
+.image3 .content-faq .faqs div div .section-3 .body-faqs section a,
+.image3 .content-faq .faqs div div .section-4 .body-faqs section a
+{
+    display: block;
+    font-size: 16px;
+    color: white;
+}

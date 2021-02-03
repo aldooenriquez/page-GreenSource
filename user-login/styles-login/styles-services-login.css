@@ -1,0 +1,476 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body .row
+{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+@media screen and (min-width:480px) and (max-width:767px)
+{
+    
+    .layout
+    {
+        background-color: rgba(0,0,0,0.4);
+        position: absolute;
+        width:100%;
+        height:300px;
+        z-index:1;
+    }
+    
+    .banner .img-banner
+    {
+        position:relative;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height:300px;
+        position: relative;
+        box-shadow: 2px 2px 6px 1px #000;
+    }
+
+    .banner .img-banner p
+    {
+        position:absolute;
+        margin-top:150px;
+        width:100%;
+        z-index: 92;
+        color:white;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .img-banner
+    {
+        background: url("../../images/banner-services.jpg") no-repeat fixed;
+    }
+
+    .accordion 
+    {
+        display:none;
+    }
+
+    .content div .menu-services
+    {
+        display:none;
+    }
+
+    .description-service .content-description
+    {
+        margin-top:50px;
+    }
+
+    .description-service .content-description div 
+    {
+        margin:30px 50px 30px 50px;
+    }
+
+    .description-service .content-description div > h1
+    {
+        font-size: 26px;
+    }
+
+    .description-service .content-description div p
+    {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px)
+{
+    .layout
+    {
+        background-color: rgba(0,0,0,0.4);
+        position: absolute;
+        width:100%;
+        height:300px;
+        z-index:1;
+    }
+
+    .banner .img-banner
+    {
+        position:relative;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height:300px;
+        position: relative;
+    }
+
+    .banner .img-banner p
+    {
+        position:absolute;
+        margin-top:150px;
+        width:100%;
+        z-index: 92;
+        color:white;
+        font-size: 43px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .img-banner
+    {
+        background: url("../images/banner-services.jpg") no-repeat fixed;
+    }
+
+    body .content
+    {
+        display:none;
+    }
+
+    .accordion
+    {
+        margin:20px;
+    }
+
+    .accordion .card .card-header h2 button
+    {
+        text-decoration: none;
+        border:none;
+        outline:none;
+    }
+
+    .accordion .card 
+    {
+        vertical-align: middle;
+    }
+
+
+
+    
+}
+
+@media screen and (min-width:992px) and (max-width:1099px)
+{ 
+    body .accordion
+    {
+        display:none;
+    }
+    .banner .img-banner
+    {
+        position:relative;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height:300px;
+        position: relative;
+    }
+
+    .banner .img-banner p
+    {
+        position:absolute;
+        margin-top:150px;
+        width:100%;
+        z-index: 92;
+        color:white;
+        font-size: 43px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .img-banner
+    {
+        background: url("../images/banner-services.jpg") no-repeat fixed;
+    }
+
+    .body
+    {
+        background-color:rgba(148, 144, 144, 0.459);
+        width:100%;
+        padding:20px 0px;
+    }
+
+    .body .row
+    {
+        margin-right:0px;
+        margin-left:0px;
+        display:none;
+    }
+
+    .body .acordion .AT div,
+    .body .acordion .MR div,
+    .body .acordion .MS div,
+    .body .acordion .INST div,
+    .body .acordion .SW div
+    {
+        display:none;
+    }
+
+    .body div #content
+    {
+        box-shadow: 2px 2px 8px #000;
+        padding:0;
+    }
+
+    .body div #content ul
+    {
+        width:100%;
+    }
+
+    .body div #content ul li
+    {
+        list-style: none;
+        margin-bottom:3px;
+        padding:10px 0px 10px 50px;
+        font-size: 15px;
+        color:white;
+        background:rgba(21, 104, 172, 0.61);
+    }
+
+    .body div #content ul li span
+    {
+        position:absolute;
+        padding:12px;
+        margin:-9px 0px 0px -48px;
+        background: blue;
+    }
+
+     .body div #content ul li .icon-home3,
+     .body div #content ul li .icon-microchip
+     {
+        margin:5px 0px 0px -48px;
+     }
+
+}
+
+
+@media screen and (min-width:1100px)
+{
+
+    ::-webkit-scrollbar{
+        width: 12px;
+        background-color: #F5F5F5;
+    }
+    ::-webkit-scrollbar-track{
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.61);
+        border-radius: 4px;
+        background-color: rgba(148, 148, 148, 0.301);
+    }
+    ::-webkit-scrollbar-thumb{
+        border-radius: 7px;
+        background-color: rgba(22, 185, 103, 0.856);
+        background-image: -webkit-linear-gradient(90deg,transparent,rgba(0, 0, 0, 0.4) 50%,transparent,transparent)
+    }
+    .layout
+    {
+        background-color: rgba(0,0,0,0.4);
+        position: absolute;
+        width:100%;
+        height:300px;
+        z-index:1;
+    }
+    body .accordion
+    {
+        display:none;
+    }
+    .banner .img-banner
+    {
+        position:relative;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height:300px;
+        position: relative;
+    }
+
+    .banner .img-banner p
+    {
+        position:absolute;
+        margin-top:150px;
+        width:100%;
+        z-index: 92;
+        color:white;
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .img-banner
+    {
+        background: url("../../images/banner-services.jpg") no-repeat fixed;
+    }
+
+    .content
+    {
+        padding:7px;
+        position: relative;
+        /* -webkit-box-shadow: inset 0px 5px 10px 0px #000000; */
+        /* box-shadow: inset 0px 5px 10px 0px #000000; */
+    }
+
+    .content .row
+    {
+        margin-left:0;
+        margin-right:0;
+    }
+
+    .content div .description-service
+    {
+        margin: 50px auto;
+        padding: 20px 15px;
+    }
+
+    .content div .description-service .content-description
+    {
+        padding: 15px;
+    }
+
+    .content div .description-service .content-description .AT,
+    .content div .description-service .content-description .MR,
+    .content div .description-service .content-description .MS,
+    .content div .description-service .content-description .INST,
+    .content div .description-service .content-description .Diseño
+    {
+        border-bottom:1px solid  rgba(76, 199, 158, 0.507);
+        padding: 0px 20px 20px 20px;
+        margin: 0px 0px 40px 0px;
+        box-shadow: 1px 5px 18px -6px rgba(85, 83, 83, 0.623);
+    }
+
+    .content div .description-service .content-description .AT .icon-user-tie,
+    .content div .description-service .content-description .MR .icon-home3,   
+    .content div .description-service .content-description .MS .icon-microchip,
+    .content div .description-service .content-description .INST .icon-tools,
+    .content div .description-service .content-description .Diseño .icon-leaf2
+    {
+        position:relative;
+        top:65px;
+        padding:15px;
+        font-size: 55px;
+        color: rgba(10, 168, 108, 0.849);
+    }
+
+    /* .content div .description-service .content-description .MS .icon-microchip
+    {
+        position:relative;
+        top:55px;
+        padding:15px;
+        font-size: 55px;
+        color: rgba(10, 168, 108, 0.849);
+    } */
+
+    .content div .description-service .content-description .AT h1,
+    .content div .description-service .content-description .MR h1,
+    .content div .description-service .content-description .MS h1,
+    .content div .description-service .content-description .INST h1,
+    .content div .description-service .content-description .Diseño h1
+    {
+        margin-left: 90px;
+        color: rgba(3, 70, 39, 0.63);
+    }
+
+    .content div .description-service .content-description .AT p,
+    .content div .description-service .content-description .MR p,
+    .content div .description-service .content-description .MS p,
+    .content div .description-service .content-description .INST p,
+    .content div .description-service .content-description .Diseño p
+    {
+        width: 60%;
+        padding: 10px;
+        font-size: 16px;
+        color: rgba(5, 92, 51, 0.685);
+        display: inline-block;
+        text-align: justify;
+    }
+    
+    .content div .description-service .content-description .AT img
+    {
+        width:360px;
+        display: inline-block;
+        position: absolute;
+        margin: 15px;
+    }
+    .content div .description-service .content-description .MS img
+    {
+        width:360px;
+        display: inline-block;
+        position: absolute;
+        left:680px;
+        top:640px;
+    }
+
+    .content div .description-service .content-description .MR img
+    {
+        width:70%;
+        height:300px;
+        display: inline-block;
+        position: relative;
+    }
+    .content div .description-service .content-description .INST img
+    {
+        width:360px;
+        display: inline-block;
+        position: relative;
+        margin: 15px;
+        top:-70px;
+    }
+
+    .content-customers 
+    {
+        padding: 20px;
+        margin-top: -65px;
+    }
+
+    .content-customers hr
+    {
+        background: rgba(14, 196, 141, 0.658);
+        box-shadow:3px 5px 7px 1px #c3c3c3;
+        height:10px;
+        border-top-left-radius: 90px;
+        border-bottom-right-radius: 90px;
+    }
+
+    .content-customers > h1
+    {
+        text-align:center;
+        margin: 0px 0px 30px 0px; 
+    }
+
+    .content-customers .row > div > div
+    {
+        border: 1px solid rgba(14, 196, 141, 0.658);
+        background-color:rgba(216, 213, 213, 0.219);
+        box-shadow: 3px 6px 8px 1px #c3c3c3;
+       
+    }
+
+    .content-customers .row div > div
+    {
+        padding: 10px;
+    }
+
+    .content-customers .row div > div .customer-1,
+    .content-customers .row div > div .customer-2,
+    .content-customers .row div > div .customer-3,
+    .content-customers .row div > div .customer-4
+    {
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .content-customers .row div > div h2
+    {
+        padding-bottom: 30px;
+        font-size: 29px;
+        text-align: center;
+        border-bottom: 1px solid #c3c3c3;
+    }
+
+}
